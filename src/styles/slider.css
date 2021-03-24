@@ -1,0 +1,23 @@
+.slider_red.ui-widget-content .ui-slider-range {
+    background: red;
+}
+.slider_green.ui-widget-content .ui-slider-range {
+    background: green;
+}
+.slider_blue.ui-widget-content .ui-slider-range {
+    background: blue;
+}
+
+.slider.ui-widget-content span{
+    width: var(--size-slider-span);
+    height: var(--size-slider-span);
+    margin-left: calc(-( 20 / 2 ));
+}
+
+.slider-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 240px;
+    height: 80px;
+}

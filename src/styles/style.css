@@ -1,0 +1,52 @@
+@import "remove.min.css";
+@import "variables.css";
+@import "slider.css";
+
+.container{
+    width: calc(100% - 20px);
+    max-width: calc(100% - 60px);
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    min-height: 84px;
+}
+
+.header__fieldset{
+    width: 100%;
+    border: 1px solid var(--color-border-main);
+    border-radius: var(--size-border-radius);
+}
+
+.header__fieldset-legend{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: var(--color-main);
+}
+
+.main__container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    border-radius: var(--size-border-radius);
+    padding: 12px;
+    border: 1px solid var(--color-border-main);
+    flex-basis: 80%;
+}
+
+@media screen and (max-width: 776px){
+    .main__container{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .text{
+        margin-top: 20px;
+        flex-basis: 100%;
+    }
+}
