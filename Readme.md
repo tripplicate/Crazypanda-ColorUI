@@ -14,6 +14,6 @@ Development: **2 hours**
 
 #### ✏️ Links
 
-See work [here](https://tripplicate.github.io/CrazyPanda/)
+See work [here](https://tripplicate.github.io/Crazypanda-ColorUI/)
 
 
