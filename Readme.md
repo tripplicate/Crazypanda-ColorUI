@@ -1,4 +1,4 @@
-## `task` JqueryUI
+## `task` JQueryUI
 
 ![CrazyPanda](./docs/git.png)
 
